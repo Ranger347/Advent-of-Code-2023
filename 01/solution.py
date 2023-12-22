@@ -42,7 +42,7 @@ def solution2():
     }
 
     sum = 0
-    with open("./input.txt") as input:
+    with open("./input1.txt") as input:
 
         # loop through each line
         for line in input:
@@ -67,7 +67,7 @@ def solution2():
             
             # print(num)
 
-                sum += int(num)
+            sum += int(num)
                 
     return sum
 
