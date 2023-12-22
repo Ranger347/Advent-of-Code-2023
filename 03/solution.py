@@ -1,7 +1,7 @@
 import sys
 import re
 from collections import defaultdict
-D = open("input.txt").read().strip()
+D = open("input1.txt").read().strip()
 lines = D.split('\n')
 G = [[c for c in line] for line in lines]
 R = len(G)
