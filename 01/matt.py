@@ -1,4 +1,3 @@
-
 def solution1():
     sum = 0
     with open("./input1.txt") as input:
